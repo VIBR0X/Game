@@ -1,0 +1,51 @@
+@font-face {
+    font-family: vinquerg;
+    src: url(./font/vinquerg.otf);
+}
+* {
+    font-family: vinquerg;
+}
+body {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    background-image: url(./images/bg-2.jpg);
+    background-size: cover;
+}
+
+.logo {
+    position: fixed;
+    top: 10vh;
+    left: 70vw;
+    height: 5vw;
+    font-size: 5rem;
+    color: #fff;    
+}
+
+.main-menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    top: 60vh;
+    left: 8vh;
+    color: #fff;
+}
+
+.menu-item {
+    margin: 10px 10px;
+    padding: 4px 20px;
+    font-size: 1.5rem;
+    width: fit-content;
+    height: fit-content;
+}
+
+.menu-item:hover {
+    font-size: 1.9rem;
+    color: darkorange;
+    border-left: 5px solid silver;
+    border-radius: 100px;
+}
+
+
