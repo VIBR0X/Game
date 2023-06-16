@@ -43,7 +43,7 @@ body {
 
 .menu-item:hover {
     font-size: 1.9rem;
-    color: darkorange;
+    color: goldenrod;
     border-left: 5px solid silver;
     border-radius: 100px;
 }
